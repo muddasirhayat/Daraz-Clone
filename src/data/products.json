@@ -1,0 +1,250 @@
+[
+  {
+    "id": 1,
+    "title": "Redmi Note 13 - 6.67\" AMOLED Display - 5000mAh Battery - 108MP Camera",
+    "description": "Experience the next level of mobile photography and display with the Redmi Note 13. Features a stunning AMOLED screen and long-lasting battery.",
+    "category": "Electronics",
+    "price": 54999,
+    "originalPrice": 64999,
+    "discount": 15,
+    "rating": 4.8,
+    "stockLevel": 45,
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=600&q=80"
+    ],
+    "reviews": [
+      {
+        "id": "r1",
+        "user": "Ali Ahmed",
+        "rating": 5,
+        "comment": "Excellent phone, great value for money!",
+        "date": "2026-01-30T10:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "T500 Smart Watch Full Touch Bluetooth Call Music Player Heart Rate",
+    "description": "Stay connected and track your health with the T500 Smart Watch. Bluetooth calling and music control at your wrist.",
+    "category": "Electronics",
+    "price": 1850,
+    "originalPrice": 4500,
+    "discount": 59,
+    "rating": 4.5,
+    "stockLevel": 120,
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1544117518-33303b7cc00f?auto=format&fit=crop&w=600&q=80"
+    ],
+    "reviews": []
+  },
+  {
+    "id": 3,
+    "title": "M10 TWS Earbuds Bluetooth Wireless Earphones 5.1 With Charging Box",
+    "description": "High-quality wireless earbuds with noise cancellation and a portable power bank charging case.",
+    "category": "Electronics",
+    "price": 1250,
+    "originalPrice": 2800,
+    "discount": 55,
+    "rating": 4.3,
+    "stockLevel": 85,
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46?auto=format&fit=crop&w=600&q=80"
+    ],
+    "reviews": []
+  },
+  {
+    "id": 4,
+    "title": "Unisex Polarized Sunglasses - Navigator Style for Driving and Fishing",
+    "description": "Protect your eyes with style. Specialized polarized lenses to reduce glare and provide clear vision.",
+    "category": "Fashion",
+    "price": 899,
+    "originalPrice": 1800,
+    "discount": 50,
+    "rating": 4.7,
+    "stockLevel": 200,
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1511499767350-a1590fdb2863?auto=format&fit=crop&w=600&q=80"
+    ],
+    "reviews": []
+  },
+  {
+    "id": 5,
+    "title": "Women's Stylish Crossbody Fashion Bag - Premium Synthetic Leather",
+    "description": "A perfect blend of elegance and utility. Spacious enough for your daily essentials with a premium finish.",
+    "category": "Fashion",
+    "price": 2450,
+    "originalPrice": 4800,
+    "discount": 49,
+    "rating": 4.6,
+    "stockLevel": 35,
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=600&q=80"
+    ],
+    "reviews": []
+  },
+  {
+    "id": 6,
+    "title": "Men's Casual Cotton Polo T-Shirt - Comfortable Summer Wear",
+    "description": "High-quality cotton polo shirt, breathable and stylish for casual outings and semi-formal events.",
+    "category": "Fashion",
+    "price": 1150,
+    "originalPrice": 2500,
+    "discount": 54,
+    "rating": 4.4,
+    "stockLevel": 150,
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=600&q=80"
+    ],
+    "reviews": []
+  },
+  {
+    "id": 7,
+    "title": "Multi-functional Foldable Laptop Table - Portable Bed Desk",
+    "description": "Work from home comfortably with this foldable laptop table. Ergonomic design with cup holder and slot.",
+    "category": "Home & Lifestyle",
+    "price": 1450,
+    "originalPrice": 3500,
+    "discount": 58,
+    "rating": 4.5,
+    "stockLevel": 60,
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?auto=format&fit=crop&w=600&q=80"
+    ],
+    "reviews": []
+  },
+  {
+    "id": 8,
+    "title": "Automatic Electric Water Dispenser Pump - Rechargeable via USB",
+    "description": "Easy to use electric pump for water bottles. Rechargeable battery lasts for several bottles on a single charge.",
+    "category": "Home & Lifestyle",
+    "price": 950,
+    "originalPrice": 1800,
+    "discount": 47,
+    "rating": 4.2,
+    "stockLevel": 90,
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1581622558663-b2e33377dfb2?auto=format&fit=crop&w=600&q=80"
+    ],
+    "reviews": []
+  },
+  {
+    "id": 9,
+    "title": "Handheld Portable Mini Sewing Machine for Quick Repairs",
+    "description": "Perfect for small repairs and sewing projects on the go. Battery operated and very easy to handle.",
+    "category": "Home & Lifestyle",
+    "price": 750,
+    "originalPrice": 1500,
+    "discount": 50,
+    "rating": 4.0,
+    "stockLevel": 40,
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1525439460145-2007e6005d64?auto=format&fit=crop&w=600&q=80"
+    ],
+    "reviews": []
+  },
+  {
+    "id": 10,
+    "title": "Interactive Wooden Puzzle Toys for Kids Development",
+    "description": "Educational toy set designed to improve motor skills and cognitive abilities in young children.",
+    "category": "Babies & Toys",
+    "price": 1850,
+    "originalPrice": 3200,
+    "discount": 42,
+    "rating": 4.9,
+    "stockLevel": 25,
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1515488764276-beab7607c1e6?auto=format&fit=crop&w=600&q=80"
+    ],
+    "reviews": []
+  },
+  {
+    "id": 11,
+    "title": "Remote Control Stunt Car 360 Degree Flip With LED Lights",
+    "description": "High-speed RC car capable of amazing stunts and flips. Durable design for rough play.",
+    "category": "Babies & Toys",
+    "price": 2850,
+    "originalPrice": 5000,
+    "discount": 43,
+    "rating": 4.7,
+    "stockLevel": 55,
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1594787317351-2bc27c65c69d?auto=format&fit=crop&w=600&q=80"
+    ],
+    "reviews": []
+  },
+  {
+    "id": 12,
+    "title": "Garnier Micellar Cleansing Water - For All Skin Types 400ml",
+    "description": "Removes makeup, cleanses and soothes the skin in one step without rinsing. Hypoallergenic.",
+    "category": "Health & Beauty",
+    "price": 1450,
+    "originalPrice": 1850,
+    "discount": 21,
+    "rating": 4.8,
+    "stockLevel": 75,
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=600&q=80"
+    ],
+    "reviews": []
+  },
+  {
+    "id": 13,
+    "title": "L'Oreal Paris Elvive Total Repair 5 Shampoo - 400ml",
+    "description": "Helps repair the 5 signs of damaged hair: hair fall, dryness, roughness, dullness, and split ends.",
+    "category": "Health & Beauty",
+    "price": 850,
+    "originalPrice": 1200,
+    "discount": 29,
+    "rating": 4.6,
+    "stockLevel": 100,
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1559599189-fe84dea4eb49?auto=format&fit=crop&w=600&q=80"
+    ],
+    "reviews": []
+  },
+  {
+    "id": 14,
+    "title": "Apple iPhone 15 Pro Max - 256GB - Titanium Style",
+    "description": "The latest flagship from Apple featuring a titanium design, powerful A17 Pro chip, and advanced camera system.",
+    "category": "Electronics",
+    "price": 425000,
+    "originalPrice": 450000,
+    "discount": 5,
+    "rating": 5.0,
+    "stockLevel": 10,
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1695653422715-991ec3a0db7a?auto=format&fit=crop&w=600&q=80"
+    ],
+    "reviews": []
+  },
+  {
+    "id": 15,
+    "title": "Sony WH-1000XM5 Wireless Industry Leading Noise Cancelling Headphones",
+    "description": "Experience unparalleled noise cancellation and exceptional sound quality with Sony's latest flagship headphones.",
+    "category": "Electronics",
+    "price": 85000,
+    "originalPrice": 95000,
+    "discount": 10,
+    "rating": 4.9,
+    "stockLevel": 15,
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80"
+    ],
+    "reviews": []
+  },
+  {
+    "id": 16,
+    "title": "HP Victus 15 Gaming Laptop - 12th Gen Intel Core i5 - RTX 3050",
+    "description": "Powerful gaming performance in a sleek design. Perfect for modern games and creative work.",
+    "category": "Electronics",
+    "price": 185000,
+    "originalPrice": 210000,
+    "discount": 11,
+    "rating": 4.7,
+    "stockLevel": 8,
+    "imageUrls": [
+      "https://images.unsplash.com/photo-1629131726692-1accd0c53ce0?auto=format&fit=crop&w=600&q=80"
+    ],
+    "reviews": []
+  }
+]
