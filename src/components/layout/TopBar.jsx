@@ -1,38 +1,82 @@
-import { Link, useNavigate } from 'react-router-dom';
+import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import AuthModal from '../auth/AuthModal';
 
 const TopBar = () => {
     const user = JSON.parse(localStorage.getItem('daraz_logged_in_user'));
     const navigate = useNavigate();
+    const [showAuthModal, setShowAuthModal] = useState(false);
+    const [authMode, setAuthMode] = useState('login');
 
     const handleLogout = () => {
         localStorage.removeItem('daraz_logged_in_user');
-        navigate('/login');
+        navigate('/');
         window.location.reload();
     };
 
+    const openAuthModal = (mode) => {
+        setAuthMode(mode);
+        setShowAuthModal(true);
+    };
+
     return (
-        <div className="bg-[#f5f5f5] py-1.5 hidden md:block">
-            <div className="container flex justify-end items-center text-[12px] gap-6 text-[#757575]">
-                <a href="#" className="hover:text-daraz-orange transition-colors uppercase">Save More on App</a>
-                <a href="#" className="hover:text-daraz-orange transition-colors uppercase">Sell on Daraz</a>
-                <a href="#" className="hover:text-daraz-orange transition-colors uppercase">Customer Care</a>
-                <a href="#" className="hover:text-daraz-orange transition-colors uppercase">Track My Order</a>
+        <>
+            <div className="bg-[#f85606] py-2 hidden md:block">
+                <div className="container flex justify-end items-center text-[11px] gap-6 text-white">
+                    <a href="#" className="hover:opacity-80 transition-opacity font-normal">
+                        SAVE MORE ON APP
+                    </a>
+                    <a href="#" className="hover:opacity-80 transition-opacity font-normal">
+                        SELL ON DARAZ
+                    </a>
+                    <a href="#" className="hover:opacity-80 transition-opacity font-normal">
+                        HELP & SUPPORT
+                    </a>
 
-                {user ? (
-                    <>
-                        <span className="text-daraz-orange font-medium uppercase truncate max-w-[100px]">{user.fullName}</span>
-                        <button onClick={handleLogout} className="hover:text-daraz-orange transition-colors uppercase">Logout</button>
-                    </>
-                ) : (
-                    <>
-                        <Link to="/login" className="hover:text-daraz-orange transition-colors uppercase">Login</Link>
-                        <Link to="/signup" className="hover:text-daraz-orange transition-colors uppercase">Signup</Link>
-                    </>
-                )}
+                    {user ? (
+                        <>
+                            <span className="font-medium truncate max-w-[100px]">
+                                {user.fullName}
+                            </span>
+                            <button
+                                onClick={handleLogout}
+                                className="hover:opacity-80 transition-opacity font-normal"
+                            >
+                                LOGOUT
+                            </button>
+                        </>
+                    ) : (
+                        <>
+                            <button
+                                onClick={() => openAuthModal('login')}
+                                className="hover:opacity-80 transition-opacity font-normal"
+                            >
+                                LOGIN
+                            </button>
+                            <span className="text-white/60">|</span>
+                            <button
+                                onClick={() => openAuthModal('signup')}
+                                className="hover:opacity-80 transition-opacity font-normal"
+                            >
+                                SIGN UP
+                            </button>
+                        </>
+                    )}
 
-                <a href="#" className="hover:text-daraz-orange transition-colors text-[14px] ml-4 font-medium">زبان تبدیل کریں</a>
+                    <span className="text-white/60">|</span>
+                    <a href="#" className="hover:opacity-80 transition-opacity font-normal flex items-center gap-1">
+                        <span>🌐</span>
+                        <span>CHANGE LANGUAGE</span>
+                    </a>
+                </div>
             </div>
-        </div>
+
+            <AuthModal
+                isOpen={showAuthModal}
+                onClose={() => setShowAuthModal(false)}
+                initialMode={authMode}
+            />
+        </>
     );
 };
 
